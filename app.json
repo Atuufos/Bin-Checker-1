@@ -1,16 +1,16 @@
 {
-    "name": "Bin-Checker Bot",
+    "name": "Bin Validator🏴‍☠️",
     "description": "A telegram Bin-Checker Bot to check is bins are valid or not.",
-    "logo": "https://telegra.ph/file/2ec26162e103aed65ba50.jpg",
+    "logo": "https://telegra.ph/file/1501124c0886fbd7355bc.jpg",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
         "bin"
     ],
-    "repository": "https://github.com/TgxBotz/Bin-Checker",
-    "website": "t.me/TgxBots",
-    "success_url": "https://t.me/TgxBots",
+
+    "website": "t.me/bincheckhere",
+    "success_url": "https://t.me/bincheckhere",
     "env": {
         "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
