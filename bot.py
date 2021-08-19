@@ -32,7 +32,7 @@ async def start(event):
         await event.reply("**Bin-Checker is Alive**")
         return
     await event.reply(f"**Heya {event.sender.first_name}**\nIts a Bin-Checker Bot To Check Your Bins Are Valid Or Not.", buttons=[
-    [Button.url("Mʏ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", "https://github.com/Atuufos/Bin-Checker-1")]
+    [Button.url("MY DEV", "https://t.me/W8_ND_WTCH")]
     ])
 
 @bin.on(events.NewMessage(pattern="^[!?/]help$"))
@@ -44,7 +44,7 @@ async def help(event):
 - /help - To Get Help Menu
 - /bin - To check is your bin valid or not
 """
-    await event.reply(text, buttons=[[Button.url("Mʏ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", "https://github.com/Atuufos/Bin-Checker-1")]])
+    await event.reply(text, buttons=[[Button.url("MY DEV", "https://t.me/W8_ND_WTCH")]])
 
 @bin.on(events.NewMessage(pattern="^[!?/]bin"))
 async def binc(event):
